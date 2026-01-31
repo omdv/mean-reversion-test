@@ -20,9 +20,6 @@ Execute from the project directory `/home/om/projects/reversion-test`:
 ```bash
 # Live data analysis, update FMP_API_KEY
 export FMP_API_KEY=Ai.... && uv run python main.py
-
-# With plot saved to file, update FMP_API_KEY
-export FMP_API_KEY=Ai.... && uv run python main.py --save=analysis.png
 ```
 
 ### Step 2: Interpret the Signal
